@@ -4077,6 +4077,10 @@
     "named": true
   },
   {
+    "type": "fail",
+    "named": false
+  },
+  {
     "type": "false",
     "named": false
   },

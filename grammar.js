@@ -334,7 +334,8 @@ module.exports = grammar({
       );
     },
 
-    bool: _ => choice('true', 'false'),
+    // GAP source file location: src/bool.c
+    bool: _ => choice('true', 'false', 'fail'),
 
     char: $ => seq(
       '\'',
